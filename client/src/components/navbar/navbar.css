@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  min-width: 430px;
+  width: 76%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.username {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+
+.logo {
+  font-weight: 800;
+  background: linear-gradient(to right, #15c9cf 7%, #00ff00 50%, #cfc80a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+}
+
+
+.loginlogout {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signout {
+  font-size: 20px;
+}
+
+@media screen and (max-width:842px){
+  /* .navItems{
+    display: none;
+  } */
+  .navContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}

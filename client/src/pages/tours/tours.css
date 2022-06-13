@@ -1,0 +1,9 @@
+.container-tours{
+  display: flex;
+  padding: 40px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-between;
+}
+
